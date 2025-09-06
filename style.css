@@ -1,11 +1,115 @@
+@font-face{
+    font-family: brook-regular;
+    src: url(/assets/brooktrial-regular.otf);
+
+}
+
+@font-face{
+    font-family: brook-italic;
+    src: url(/assets/brooktrial-italic.otf);
+}
+
+
+.intro{
+    margin: 3em;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2em; */
+    color: yellow;
+    gap: 2em;
+}
+
+
+h1{
+    font-family: brook-italic;
+    font-size: 1.5em;
+    color: #edd1ff;
+    text-shadow: 2px 2px 5px black;
+    -webkit-text-stroke: 0.2px black;
+}
 
 .container{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    place-items: center;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 30px;
+    border-style: groove;
+    box-shadow: inset 0px 0px 10px black;
+    /* place-items: center; */
 }
+
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
 body{
     background-color: black;
     overflow-x: hidden;
+    display: grid;
+    place-items: center;
+    font-family: brook-regular;
+}
+
+img{
+   max-width: 50vw;
+   max-height: 50vh;
+}
+
+.text{
+    width: 30vw;
+    padding: 2em;
+    /* background-color: aqua; */
+}
+
+.student-project{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rebeccapurple;
+    margin: 2em;
+    padding: 2em;
+    border-bottom: 4px ridge black ;
+}
+
+.student-project p{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.25px;
+
+}
+
+.student-project img{
+
+     border: 1px solid black;
+     border-radius: 50px;
+
+}
+
+
+a{
+    color: yellow;
+}
+
+summary{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+
+}
+
+details{
+ padding: 1em;
+    border-top: 4px dotted yellow;
+    border-bottom: 4px dotted yellow;
+    font-family: brook-italic;
+
 }
