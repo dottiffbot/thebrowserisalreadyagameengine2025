@@ -24,9 +24,10 @@
 h1{
     font-family: brook-italic;
     font-size: 1.5em;
-    color: #edd1ff;
-    text-shadow: 2px 2px 5px black;
-    -webkit-text-stroke: 0.2px black;
+    /* color: #edd1ff; */
+    color: #F590A1;
+    text-shadow: 1px 1px 1px black;
+    /* -webkit-text-stroke: 0.2px black; */
 }
 
 .container{
@@ -72,7 +73,7 @@ img{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    color: rebeccapurple;
+    color: pink;
     margin: 2em;
     padding: 2em;
     border-bottom: 4px ridge black ;
@@ -96,6 +97,7 @@ img{
 
 a{
     color: yellow;
+
 }
 
 summary{
