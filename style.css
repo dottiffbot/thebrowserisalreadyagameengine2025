@@ -115,3 +115,21 @@ details{
     font-family: brook-italic;
 
 }
+
+@media (max-width: 700px) {
+    .student-project{
+        flex-direction: column;
+        padding: 0;
+        
+    }
+
+    img{
+       max-width: 90vw;
+       padding: 0;
+    }
+
+    .text{
+        width: 80vw;
+    }
+    
+}
